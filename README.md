@@ -12,6 +12,12 @@ curl -F "url=https://<DOMAIN.TLD>/<YOUR_WEBHOOK_PHP>" https://api.telegram.org/b
 
 Afterwards check if the webhook info is set properly on https://api.telegram.org/bot<BOT_ID>/getWebhookInfo
 
+## Setup
+Only thing to set is the BOT ID in the code.
+```
+$TELEGRAM_BOT =  '15560000000:AAFoWcuFvqXXXXXXXXXXXXXXXXXXXXX';
+```
+
 ## Usage
 You can use the following commands as an example:
 /ping
