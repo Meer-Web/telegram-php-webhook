@@ -5,17 +5,13 @@
 // https://api.telegram.org/bot<BOT_ID>/getWebhookInfo
 // URL to set the webhook
 // curl -F "url=https://<DOMAIN.TLD>/<YOUR_WEBHOOK_PHP>" https://api.telegram.org/bot<$TELEGRAM_BOT>/setWebhook
-// Start script
 
-/* COMMANDS 
+/* COMMANDS for botfather to take in
 help - Show help
 ping - Check keepalive
 time - Shows the current time.
 picture - Reply with a picture
 */
-
-
-error_reporting(E_ALL & ~E_NOTICE);
 
 // Telegram function for posting text.
 function telegram($msg) {
