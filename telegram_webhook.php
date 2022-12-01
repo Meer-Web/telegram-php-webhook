@@ -1,6 +1,4 @@
 <?php 
-//require_once('includes/config.php');
-//require_once('includes/functions.php');
 // URL to get the webhook info
 // https://api.telegram.org/bot<BOT_ID>/getWebhookInfo
 // URL to set the webhook
