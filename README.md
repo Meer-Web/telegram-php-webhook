@@ -7,7 +7,7 @@ Set the bot webhook using setWebhook.
 
 Ea:
 ```
-curl -F "url=https://<DOMAIN.TLD>/<YOUR_WEBHOOK_PHP>" https://api.telegram.org/bot<YOURTOKEN>/setWebhook
+curl -F "url=https://<DOMAIN.TLD>/<YOUR_WEBHOOK_PHP>" https://api.telegram.org/bot<BOT_ID>/setWebhook
 ```
 
 Afterwards check if the webhook info is set properly on https://api.telegram.org/bot<BOT_ID>/getWebhookInfo
