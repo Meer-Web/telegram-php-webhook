@@ -23,5 +23,6 @@ You can use the following commands as an example:
 /ping
 /time
 /chatid
+/picture
 
 You can easily add more in the case statement in the code.

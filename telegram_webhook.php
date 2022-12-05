@@ -1,10 +1,14 @@
 <?php 
-// URL to get the webhook info
-// https://api.telegram.org/bot<BOT_ID>/getWebhookInfo
-// URL to set the webhook
-// curl -F "url=https://<DOMAIN.TLD>/<YOUR_WEBHOOK_PHP>" https://api.telegram.org/bot<$TELEGRAM_BOT>/setWebhook
+/*
+Author: info@meer-web.nl
+Web: https://meer-web.nl
 
-/* COMMANDS for botfather to take in
+#URL to get the webhook info
+https://api.telegram.org/bot<BOT_ID>/getWebhookInfo
+# URL to set the webhook
+curl -F "url=https://<DOMAIN.TLD>/<YOUR_WEBHOOK_PHP>" https://api.telegram.org/bot<$TELEGRAM_BOT>/setWebhook
+
+# COMMANDS for botfather to take in
 help - Show help
 ping - Check keepalive
 time - Shows the current time.
